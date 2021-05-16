@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{ 
+    background-color: rgb(117, 117, 117);  
+    width: 100%;
+    height: 100vh;
+    box-shadow: inset;
+}
+
+.text{
+    position: absolute;
+    text-align: center;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -47%);
+}
+.text h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 250px;
+}
+
+#bottom{
+    position: absolute;
+    text-align: center;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    margin-top: 30px;
+    
+}
+
+.content{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 500px;
+    background-color: white;
+    padding: 50px;
+    box-shadow: -3px 1px 28px 8px rgba(0,0,0,0.6);
+    border-radius: 10px;
+}
+
+.top h1{
+    font-size: 30px;
+    font-family: 'Noto Sans JP', sans-serif;
+    padding-bottom:50px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    font-family: 'Noto Sans JP';
+    color: white;
+    padding: 10px;
+    border:1px solid black;
+    border-radius: 50px;
+}
+
+.calc{
+    background-color: seagreen;
+}
+
+.res{
+    background-color: rgb(223, 29, 29);
+}
+
+button:hover{
+    box-shadow:-3px 1px 10px 1px rgba(0,0,0,0.6) ;
+}
+
+#result{
+    color:white;
+    padding:15px;
+    font-family: 'Noto Sans JP';
+    font-weight: 500;
+    box-shadow: -3px 1px 28px 8px rgba(0,0,0,0.6);
+    border-radius: 10px;
+}
+
